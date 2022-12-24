@@ -3,16 +3,9 @@
 #include <string>
 using namespace std;
 
-// class Round{
-//     int choice; // rock, paper, or scissors score (1, 2, 3)
-//     int outcome; // win, lose, draw (6, 0, 3)
-//     int roundSum = 0;
-// }
-
 int main()
 {
     ifstream myfile;
-    // Round *arr = new Round(10000000);
     string line;
     int choice; // rock, paper, or scissors score (1, 2, 3)
     int outcome; // win, lose, draw (6, 0, 3)
