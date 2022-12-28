@@ -45,5 +45,6 @@ int main()
         cout << arr[2] << endl;
     }
     myfile.close();
+    delete arr;
     return 0;
 }
